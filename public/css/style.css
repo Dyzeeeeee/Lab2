@@ -1,0 +1,76 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+h1 {
+	color: #333;
+}
+
+#player-container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+	width: 100%;
+}
+
+#playlist {
+	list-style: none;
+	padding: 0;
+}
+
+#playlist li {
+	cursor: pointer;
+	padding: 10px;
+	background-color: #eee;
+	margin: 5px 0;
+	transition: background-color 0.2s ease-in-out;
+}
+
+#playlist li:hover {
+	background-color: #ddd;
+}
+
+#playlist li.active {
+	background-color: #007bff;
+	color: #fff;
+}
+
+
+
+  .song-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .list-container {
+    width: 100%; /* Set the width to 100% to extend the container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  .song-title {
+    flex-grow: 1;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+  .add-to-playlist-btn,
+  .delete-song-btn {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+
+  .song-title {
+    color: black;        /* Set the color to black or the color you prefer */
+    text-decoration: none; /* Remove underlining */
+    /* Add any other desired styles here */
+}
+
